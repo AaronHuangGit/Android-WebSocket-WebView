@@ -1,4 +1,4 @@
--由于android4.2版本以前webkit不支持websocket，所以需要用java建立websocket连接后，根据相对应的事件回调来调用js函数来实现android4.2版本以前webview对websocket
+-由于android4.4版本以前webkit不支持websocket，所以需要用java建立websocket连接后，根据相对应的事件回调来调用js函数来实现android4.4版本以前webview对websocket
 的支持。
 
 -Websocket各平台支持情况：
