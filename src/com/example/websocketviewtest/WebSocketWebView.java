@@ -53,7 +53,7 @@ public class WebSocketWebView extends WebView {
                         return false;
                     }
                 });
-        addJavascriptInterface(new WebSocketJavaScriptObject(this, new Draft_17()), "WebSocketJavaScriptObject");
+        addJavascriptInterface(new WebSocketJavaScriptObject(this), "WebSocketJavaScriptObject");
     }
 
 

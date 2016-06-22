@@ -5,6 +5,7 @@ import android.webkit.JavascriptInterface;
 import com.websocket.WebSocket;
 import com.websocket.client.WebSocketClient;
 import com.websocket.drafts.Draft;
+import com.websocket.drafts.Draft_17;
 import com.websocket.handshake.ServerHandshake;
 import com.websocket.util.Base64;
 
@@ -46,9 +47,18 @@ public class WebSocketJavaScriptObject {
     private WebSocketWebView mWebSocketWebView;
 
 
+    public WebSocketJavaScriptObject(WebSocketWebView webSocketWebView) {
+        init(webSocketWebView);
+        mDraft = new Draft_17();
+    }
     public WebSocketJavaScriptObject(WebSocketWebView webSocketWebView, Draft draft) {
-        mWebSocketWebView = webSocketWebView;
+        init(webSocketWebView);
         mDraft = draft;
+
+    }
+
+    private void init(WebSocketWebView webSocketWebView) {
+        mWebSocketWebView = webSocketWebView;
         mId = getRandomUniqueId();
     }
 
