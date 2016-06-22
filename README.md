@@ -8,9 +8,13 @@ http://caniuse.com/#feat=websockets
 -github上与android java websocket相关的开源库：
 
 https://github.com/anismiles/websocket-android-phonegap
+ 
 https://github.com/koush/AndroidAsync
+
 https://github.com/koush/android-websockets
+
 https://github.com/Gottox/socket.io-java-client
+
 https://github.com/crossbario/autobahn-android
 
 -websocket相关知识文章：
