@@ -5,7 +5,7 @@
 
 http://caniuse.com/#feat=websockets
 
--github上与android java websocket相关的开源库：
+-github上与android java websocket相关的开源库，经调试有的不能支持最新版本websocket握手协议：
 
 https://github.com/anismiles/websocket-android-phonegap
  
@@ -21,7 +21,7 @@ https://github.com/crossbario/autobahn-android
 
 http://www.infoq.com/cn/news/2013/12/websocket-and-java
 
-该项目使用 https://github.com/TooTallNate/Java-WebSocket 开源项目来实现java websocket连接，可选用Websocket Draft10、Draft17、Draft75、Draft76版本草案协议
+该项目使用 https://github.com/TooTallNate/Java-WebSocket 开源项目来实现java websocket连接，可选用Websocket Draft10、Draft17（websocket 13）、Draft75、Draft76版本草案协议
 
 
   
